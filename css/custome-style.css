@@ -36,6 +36,7 @@ ul{margin: 0; padding: 0;list-style: none;}
   border-top:8px solid transparent;
   right: 100%;
   top: 50%; transform: translateY(-50%);-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);-o-transform: translateY(-50%);
+  
 
 }
 
