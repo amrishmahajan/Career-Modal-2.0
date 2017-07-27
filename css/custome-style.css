@@ -24,6 +24,21 @@ ul{margin: 0; padding: 0;list-style: none;}
 .sitemap > li > span{display: block;}
 .sitemap > li > span.count{background:#ff9602; border-radius:4px; color: #fff;font-size: 16px; height: 36px;left: 100%;padding: 7px 2px; position: absolute;
     top: 50%; transform: translateY(-50%);-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);-o-transform: translateY(-50%);margin-left: 20px; width: 41px;}
+
+.sitemap > li > span.count::before{
+  width: 0;
+  height: 0;
+  position: absolute;
+  content: "";
+  border-right:8px solid #ff9602;
+  border-left:8px solid transparent;
+  border-bottom:8px solid transparent;
+  border-top:8px solid transparent;
+  right: 100%;
+  top: 50%; transform: translateY(-50%);-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);-o-transform: translateY(-50%);
+
+}
+
 .sitemap >li:nth-child(2)
 {
   margin-left: 120px;
