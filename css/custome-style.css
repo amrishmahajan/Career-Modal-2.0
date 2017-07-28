@@ -83,3 +83,77 @@ ul{margin: 0; padding: 0;list-style: none;}
     transform: translateX(-50%);
     width: 7px;
 }
+
+/*FLOW CHART SYTLE  */
+
+.flow-title{background: #01c7c8; color: #fff;padding: 8px 65px;position: relative;display:table; margin: auto;}
+.flow-title::after {
+    border-left: 1px dashed #000;
+    content: "";
+    height: 43px;
+    left: 50%;
+    position: absolute;
+    top: 100%;
+    transform: translateX(-50%);
+}
+
+/* .flow-title::before {
+    background: #127474;
+    border-radius: 100%;
+    content: "";
+    height: 7px;
+    left: 50%;
+    margin-top: 39px;
+    position: absolute;
+    top: 100%;
+    transform: translateX(-50%);
+    width: 7px;
+}   */
+
+.flowchart{ float: left;
+    margin-top: 0px;
+    padding-top: 102px;
+    position: relative;
+    width: 100%;}
+
+.flowchart::after {
+    border-bottom: 1px dashed #000;
+    content: "";
+    height: 43px;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    width: 80%;
+}
+
+.flowchart > li{
+  float: left;background: #01c7c8; color: #fff;padding: 8px 58px;margin: 0 6px;position: relative;
+}
+.flowchart > li::after {
+    border-left: 1px dashed #000;
+    content: "";
+    height: 43px;
+    left: 50%;
+    position: absolute;
+    bottom: 100%;
+    transform: translateX(-50%);
+    margin-bottom: 16px;
+}
+  
+.flowchart > li::before {
+    background: #127474;
+    border-radius: 100%;
+    content: "";
+    height: 7px;
+    left: 50%;
+    margin-top: 39px;
+    position: absolute;
+    bottom: 100%;
+    transform: translateX(-50%);
+    width: 7px;
+     margin-bottom: 16px;
+}
+
+
+
